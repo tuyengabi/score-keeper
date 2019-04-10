@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 
   <body>
     <article>
-      <input class="score" type="">
-      <button class="addscore" type="button" onclick="()"></button>
-      <div>0</div>
-      <button class="reset" type="reset">RESET</button>
+      <input id="score" type="input" value="0">
+      <button class="addscore" type="button" onclick="maxScore()">
+        <i class="fas fa-trophy" onclick="maxScore()"></i>
+      </button>
+      <div id="maxscore">0</div>
+      <button id="reset" type="button" onclick="resetScore()">RESET</button>
     </article>
     <main>
     <div class="play-score">0</div>
@@ -20,5 +23,6 @@
     <button class="play" type="button" onclick="()">PLAYER2</button>    
     </main>
 
+    <script src="js/main.js"></script>
   </body>
 </html>
