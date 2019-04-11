@@ -5,3 +5,11 @@ let scorePlayer2 = document.getElementsByClassName('scorePlayer2')[0].innerHTML;
 let btnPlayer1 = document.getElementsByClassName('btnPlayer1')[0];
 let btnPlayer2 = document.getElementsByClassName('btnPlayer2')[0];
 let btnReset = document.getElementsByClassName('btnReset')[0];
+
+let score1 = 0;
+let score2 = 0;
+
+let oui = 0;
+function scoreIncrement() {
+  return ++score1;
+}
