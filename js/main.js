@@ -26,6 +26,7 @@ function resetScore() {
 
 
 //function increase score
+let player1 = document.get
 
 function increaseScore() {
 

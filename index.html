@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 
   <body>
     <article>
-      <input id="score" type="input" value="0">
+      <input class="score" type="input" value="0">
       <button class="addscore" type="button" onclick="maxScore()">
         <i class="fas fa-trophy" onclick="maxScore()"></i>
       </button>
-      <div id="maxscore">0</div>
-      <button id="reset" type="button" onclick="resetScore()">RESET</button>
+      <div class="maxscore">0</div>
+      <button class="btnReset" type="button" onclick="resetScore()">RESET</button>
     </article>
     <main>
-    <div id="play-score1">1</div>
-    <div id="play-score2">0</div>
-    <button class="play" type="button" onclick="()">PLAYER1</button>
-    <button class="play" type="button" onclick="()">PLAYER2</button>    
+    <div class="scorePlayer1">1</div>
+    <div class="scorePlayer2">0</div>
+    <button class="btnPlayer1" type="button" onclick="()">PLAYER1</button>
+    <button class="btnPlayer2" type="button" onclick="()">PLAYER2</button>    
     </main>
 
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
