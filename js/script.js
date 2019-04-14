@@ -22,7 +22,7 @@ function freeze() {
 }
 
 function resetScore() {
-  document.getElementsByClassName('maxScore')[0].innerHTML = 0;
+  document.getElementsByClassName('maxScore')[0].innerHTML = 5;
   document.getElementsByClassName('scorePlayer1')[0].innerHTML = 0;
   document.getElementsByClassName('scorePlayer2')[0].innerHTML = 0;
   score1 = 0;
