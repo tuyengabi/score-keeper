@@ -12,7 +12,7 @@ let score2 = 0;
 let valueInput;
 
 function addMaxScore() {
- valueInput = document.getElementsByClassName('score')[0].value;
+  valueInput = document.getElementsByClassName('score')[0].value;
   document.getElementsByClassName('maxScore')[0].innerHTML = valueInput;
 }
 
