@@ -6,15 +6,46 @@
 
 body {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  text-align: center; }
+
+section {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  position: relative; }
+
+div.scorePlayer1 {
+  width: 35%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 8rem;
+  display: table; }
+
+div.maxScore {
+  width: 35%;
+  height: 100%;
+  background-color: grey;
+  font-size: 5rem;
+  display: table; }
+
+div.scorePlayer2 {
+  width: 35%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 8rem;
+  display: table; }
+
+p {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell; }
 
 article {
-  width: 70%;
-  height: 40%;
-  display: block; }
-
-input {
-  resize: horizontal;
-  width: 40%; }
+  width: 30%;
+  display: flex;
+  background-color: green; }
 
 /*# sourceMappingURL=style.css.map */

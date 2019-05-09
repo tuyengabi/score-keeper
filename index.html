@@ -3,22 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
-    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 
   <body>
+    <section>
+      <div class="scorePlayer1"><p>0</p></div>
+      <div class="maxScore"><p>5</p></div>
+      <div class="scorePlayer2"><p>0</p></div>
+    </section>
     <article>
+      <button class="btnReset" type="button" onclick="resetScore()">
+        <i class="fas fa-redo-alt" onclick="resetScore()"></i>
+      </button>
       <input class="score" type="input" value="5">
       <button class="addScore" type="button" onclick="addMaxScore()">
         <i class="fas fa-trophy" onclick="addMaxScore()"></i>
       </button>
-      <div class="maxScore">5</div>
-      <button class="btnReset" type="button" onclick="resetScore()">RESET</button>
     </article>
     <main>
-    <div class="scorePlayer1">0</div>
-    <div class="scorePlayer2">0</div>
     <button class="btnPlayer1" type="button" onclick="scoreIncrement1()">PLAYER1</button>
     <button class="btnPlayer2" type="button" onclick="scoreIncrement2()">PLAYER2</button>    
     </main>
